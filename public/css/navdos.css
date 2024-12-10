@@ -1,0 +1,59 @@
+/* OTROS ESTILOS */
+.w-80{
+    width: 80%;
+}
+
+/* NAV */
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: 1s;
+    background-color: black;
+}
+
+.logo-sofa-white{
+    background: url('/images/logosofamima.svg')center center/contain no-repeat;
+    height: 10vh;
+}
+
+.nav-menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menus a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-media i{
+    font-size: 24px
+}
+
+.text-start{
+    color: white;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
